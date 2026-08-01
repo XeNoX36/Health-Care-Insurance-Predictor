@@ -7,7 +7,7 @@ scaler = joblib.load("ML_Projects/Insurance_model/scaler.pkl")
 le_gender = joblib.load("ML_Projects/Insurance_model/label_encoders_gender.pkl")
 le_diabetic = joblib.load("ML_Projects/Insurance_model/label_encoders_diabetic.pkl")
 le_smoker = joblib.load("ML_Projects/Insurance_model/label_encoders_smoker.pkl")
-model = joblib.load("ML_Projects/Insurance_model/best_model.pkl")
+model = joblib.load("best_model.pkl")
 
 st.set_page_config(page_title="Insurance Claim Prediction", layout="centered")
 st.title("Health Insurance Payment Prediction App")
