@@ -1,5 +1,0 @@
-joblib
-pandas
-matplotlib
-seaborn
-json
